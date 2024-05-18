@@ -902,19 +902,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[\#2b2b2b\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(43 43 43 / var(--tw-bg-opacity));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1161,11 +1148,11 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .desktop\:h-auto {
+  .desktop\:h-\[auto\] {
     height: auto;
   }
 
-  .desktop\:h-\[auto\] {
+  .desktop\:h-auto {
     height: auto;
   }
 
